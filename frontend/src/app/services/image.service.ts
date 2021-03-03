@@ -2,9 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
-import { Prediction } from "../../respons_objects/Prediction";
-
-
+import { Prediction } from "./Prediction";
 
 @Injectable({
   providedIn: 'root'
